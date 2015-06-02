@@ -106,3 +106,10 @@ rails side, but I'll let your figure out which ones.
 
 > hint: if you are stuck you might want to checkout the json-api
 >       branch for the rails application
+
+---
+
+# above and beyond
+
+so you finished, cool. take a look at mini-twitter.md that
+should be harder. don't worry, we're here to help ;)
