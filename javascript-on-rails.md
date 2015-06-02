@@ -11,7 +11,7 @@ But node comes with a built-in package manager, NPM
 
 https://npmjs.org
 
-    npm -v
+    $ npm -v
     # 2.10.2
 
 ---
@@ -22,13 +22,13 @@ https://npmjs.org
 will install locally by default in `node_modules`. And `npm`
 is much cooler than `gem`.
 
-    mkdir npm-101 && cd npm-101
-    npm install lodash # npm i === npm install
+    $ mkdir npm-101 && cd npm-101
+    $ npm install lodash # npm i === npm install
 
-    ls
+    $ ls
     # node_modules/
 
-    ls node_modules
+    $ ls node_modules
     # lodash/
 
 ---
@@ -89,9 +89,20 @@ javascripts.
 
 # adapting our frontend to handle the new API
 
+demo
+
 ---
 
 # what now?
 
-we've redone the app for `#index`, let's move it everything to
-the frontend.
+we've redone the app for `#index`, let's move it everything else
+to the frontend.
+
+first you will have to create JSON endpoints for the rest of the
+actions, it should be pretty similar to the `#index` action.
+
+there might be some actions you don't really need anymore on the
+rails side, but I'll let your figure out which ones.
+
+> hint: if you are stuck you might want to checkout the json-api
+>       branch for the rails application
