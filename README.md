@@ -9,3 +9,14 @@ tslide presentation-file.md
 
 npm i tslide -g # you may need sudo
 ```
+
+You may want to use [mdp](https://github.com/visit1985/mdp) to run
+the slides (they will look prettier :D)
+
+```sh
+git clone git@github.com:visit1985/mdp.git
+cd mdp
+make
+make install
+mdp presentation-file.md
+```
