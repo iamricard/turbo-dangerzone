@@ -1,3 +1,5 @@
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
 To run each set of slides, go to the terminal
 and run
 
@@ -20,3 +22,9 @@ make
 make install
 mdp presentation-file.md
 ```
+
+### LICENSE
+
+Code is registered under the GPL v2.0 License
+
+The rest is registered under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
