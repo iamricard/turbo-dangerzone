@@ -95,7 +95,7 @@ demo
 
 # what now?
 
-we've redone the app for `#index`, let's move it everything else
+we've redone the app for `#index`, let's move everything else
 to the frontend.
 
 first you will have to create JSON endpoints for the rest of the
